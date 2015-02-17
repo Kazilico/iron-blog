@@ -1,8 +1,325 @@
-.body-left {
-	display: inline-block;
+body {
+	width: 1330px;
+	margin: 0px;
 }
 
+.header {
+	width: 100%;
+}
+
+.body {
+	width: 100%;
+	margin: 0px;
+}
+
+.body-left {
+	display: inline-block;
+	width: 23%;
+}
+
+.circle {
+	width: 96px;
+	height: 105px;
+	left: 60px;
+	top: -2830px;
+	background-color: white;
+	position: relative;
+	border-radius: 52px;
+}
+
+.logo {
+	width: 90px;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 45px;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+}
+
+h1 {
+	position: relative;
+	margin-top: 45px;
+	top: -2850px;
+	left: 60px;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+.ref1 {
+	text-decoration: none;
+	color: #5E5E5E;
+}
+.focus {
+	position: relative;
+	margin-left: 60px;
+	top: -2845px;
+	width: 200px;
+	color: #BBBBBB;
+	font-size: 20px;
+	line-height: 1.5em;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #BBBBBB;
+	padding-bottom: 20px;
+}
+
+.search {
+	position: relative;
+	top: -2795px;
+	color: #BBBBBB;
+	font-family: sans-serif;
+	margin-left: 60px;
+	font-weight: bold;
+	padding-right: 60px;
+}
+ 
+ .text {
+ 	width: 175px;
+ 	margin-top: 60px;
+ 	padding: 10px;
+ }
 
 .body-right {
 	display:inline-block;
+	width: 70%;
+}
+
+.title {
+	position: relative;
+	top: 75px;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #333333;
+}
+
+.p1 {
+	width: 610px;
+}
+
+.su {
+	position: relative;
+	top: 90px;
+	height: 475px;
+	width: 500px;
+	text-decoration: none;
+}
+
+.p2 {
+	display: block;
+	position: relative;
+	top: 130px;
+	color: #5E5E5E;
+	font-size: 19px;
+	line-height: 1.5em;
+}
+
+.p3 {
+	display: block;
+	position: relative;
+	top: 150px;
+	font-family: Sans-serif;
+	font-size: 38px;
+	color: #333333;
+}
+
+.p4 {
+	display: block;
+	position: relative;
+	top: 180px;
+	color: #5E5E5E;
+	font-size: 19px;
+	line-height: 1.5em;
+	text-decoration: none;
+}
+
+.disruption {
+	display: block;
+	position: relative;
+	top: 220px;
+}
+
+.crystal {
+	display: block;
+	position: relative;
+	top: 250px;
+}
+
+.carpet {
+	display: block;
+	position: relative;
+	top: 280px;
+}
+
+.p5 {
+	display: block;
+	position: relative;
+	top: 320px;
+	color: #5E5E5E;
+	font-size: 19px;
+	line-height: 1.5em;
+}
+
+.planes {
+	display: block;
+	position: relative;
+	top: 360px;
+}
+
+.p6 {
+	display: block;
+	position: relative;
+	top: 410px;
+	color: #5E5E5E;
+	font-size: 19px;
+	line-height: 1.5em;
+}
+
+.coffee {
+	display: block;
+	position: relative;
+	top: 450px;
+}
+
+.p7 {
+	display: block;
+	position: relative;
+	top: 500px;
+	color: #5E5E5E;
+	font-size: 19px;
+	line-height: 1.5em;
+}
+
+.p8 {
+	display: block;
+	position: relative;
+	top: 530px;
+	color: #5E5E5E;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	height: 240px;
+	top: 550px;
+	margin-top: 60px;
+	border-top: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+}
+
+.small-logo1 {
+	position: relative;
+	display: inline-block;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 45px;
+	left: 200px;
+}
+
+.subsection {
+	display: inline-block;
+	position: relative;
+	top: 55px;
+	left: 240px;
+	color: #BBBBBB;
+}
+
+.footer-title {
+	display: block;
+	position: relative;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+.blog-descriptor {
+	display: block;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+.tagline {
+	display: block;
+	font-family: sans-serif;
+}
+
+.floater {
+	position: fixed;
+	width: 380px;
+	background-color: white;
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.reminder {
+	font-family: sans-serif;
+	color: #333333;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #BBBBBB;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+.close {
+	position: relative;
+	font-family: sans-serif;
+	color: #BBBBBB;
+	left: 140px;
+}
+
+.lowerFloater {
+
+}
+
+.small-logo2 {
+	position: relative;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.tumblr {
+	position: relative;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333333;
+	display: inline-block;
+	top: -45px;
+	left: 10px;
+} 
+
+.tiy {
+	position: relative;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #BBBBBB;
+	left: -37px;
+	top: -15px;
+}
+
+.follow {
+	position: relative;
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	background-color: #559FCA;
+	top: -30px;
+	right: 20px;
+	border-radius: 3px;
 }
