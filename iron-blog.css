@@ -128,7 +128,7 @@ h1 {
 .p3 {
 	display: block;
 	position: relative;
-	top: 150px;
+	top: 160px;
 	font-family: Sans-serif;
 	font-size: 38px;
 	color: #333333;
@@ -228,14 +228,14 @@ h1 {
 	border-width: 5px;
 	border-color: white;
 	border-radius: 45px;
-	left: 200px;
+	left: 320px;
 }
 
 .subsection {
 	display: inline-block;
 	position: relative;
 	top: 55px;
-	left: 240px;
+	left: 350px;
 	color: #BBBBBB;
 }
 
@@ -261,7 +261,7 @@ h1 {
 
 .floater {
 	position: fixed;
-	width: 380px;
+	width: 300px;
 	background-color: white;
 	border-style: solid;
 	border-color: #BBBBBB;
@@ -276,15 +276,16 @@ h1 {
 	border-bottom: solid;
 	border-width: 1px;
 	border-color: #BBBBBB;
-	padding-left: 15px;
-	padding-bottom: 15px;
+	padding: 5px;
+	padding-left: 10px;
 }
 
 .close {
 	position: relative;
 	font-family: sans-serif;
+	font-size: 18px;
 	color: #BBBBBB;
-	left: 140px;
+	left: 130px;
 }
 
 .lowerFloater {
@@ -294,7 +295,11 @@ h1 {
 .small-logo2 {
 	position: relative;
 	display: inline-block;
-	padding-left: 20px;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 45px;
+	margin-top: 15px;
+	margin-left: 30px;
 }
 
 .tumblr {
@@ -304,8 +309,8 @@ h1 {
 	font-size: 18px;
 	color: #333333;
 	display: inline-block;
-	top: -45px;
-	left: 10px;
+	top: -5px;
+	left: 42px;
 } 
 
 .tiy {
@@ -314,20 +319,20 @@ h1 {
 	font-family: sans-serif;
 	font-weight: bold;
 	color: #BBBBBB;
-	left: -37px;
-	top: -15px;
+	left: 85px;
+	top: -5px;
 }
 
 .follow {
 	position: relative;
 	display: inline-block;
-	height: 40px;
-	width: 100px;
+	height: 35px;
+	width: 85px;
 	font-family: sans-serif;
-	font-size: 18px;
+	font-size: 15px;
 	color: white;
 	background-color: #559FCA;
-	top: -30px;
-	right: 20px;
+	top: -50px;
+	right: 40px;
 	border-radius: 3px;
 }
